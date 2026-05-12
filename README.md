@@ -14,7 +14,7 @@ This is the load-bearing pattern. It forces you (the owner) to think of your AI 
 
 ```
 CLAUDE.md                    — Larry's identity + the iron rule + how you talk to the team
-.claude/agents/              — 10 specialist role files (drop the ones you don't need)
+.claude/agents/              — 11 specialist role files (drop the ones you don't need)
 Library/                     — your operating rulebook, tag vocabulary, relocation log
 Owner's Inbox/               — where the team drops finished work for you
 Team Inbox/                  — where you drop files for the team to work on (Archive/ subfolder included)
@@ -25,13 +25,13 @@ docs/
   └─ karpathy-llm-wiki-guide.md  — how to set up the wiki on Google Drive
 ```
 
-## The team (10 specialists in this v1)
+## The team (11 specialists in this v1)
 
 | Specialist | Lane | Keep me if… |
 |---|---|---|
 | **Nolan** — HR Manager | Hires new specialists; writes role files | Always — universal core |
 | **Pax** — Senior Researcher | Cited, date-stamped outside research | Always — universal core |
-| **Wren** — PKM Librarian | Folder rules, tag vocabulary, the wiki, audits | Always — universal core |
+| **Wren** — PKM Librarian | Folder rules, tag vocabulary, the wiki, audits | Always — universal core (load-bearing for the LLM Wiki) |
 | **Mira** — Database Architect | SQLite schema, FTS5, sqlite-vec, migrations | You're building a local PKM stack |
 | **Cleo** — CLI Engineer | The `pkm` CLI; library shape; named parameters | You're building a local PKM stack |
 | **Theo** — Local Application Engineer | Local web UI over your knowledge store | You're building a local PKM stack |
@@ -39,6 +39,7 @@ docs/
 | **Sloane** — Pursuit Advisor | Account briefs, outbound sequences, pricing menus | You have sales/BD pursuit work |
 | **Knox** — Startup Counsel | Legal issue-spotting; never binding advice | You have legal-adjacent work |
 | **Felix** — SaaS CPA | Federal + multi-state tax; never signs returns | You have tax-adjacent work |
+| **Nell** — House Comic | Topical humor; the joke book | You want a named voice for levity (universal, but owner-seeded) |
 
 Each role file starts with a **"When to keep this specialist"** note (look at the top of each `.claude/agents/<name>.md` file). Drop the ones that don't apply to you; keep the universal core (Larry / Nolan / Pax / Wren) at minimum.
 
@@ -47,6 +48,17 @@ Each role file starts with a **"When to keep this specialist"** note (look at th
 - **Address Larry directly:** *"Larry, …"*
 - **Address a specialist by name:** *"Pax, research X"* or *"Nolan, hire someone who can Y"* — Larry routes the call.
 - **Give a task without naming anyone:** Larry picks the right specialist.
+
+## Customization notes (read before you commit your version)
+
+A few specialists ship with intentional placeholders that need a first-day seed from **you** (the owner) or a Pax brief on hire day:
+
+- **Hank's named-competitor list is empty.** First-day task: ask Pax for a 1-page brief on your top 3-5 competitors. Hank's weekly competitive refresh starts from that seed.
+- **Felix's state-tax subsection is a placeholder.** First-day task: ask Pax to brief your nexus states (where you live, where any employees live, where you sell). Felix folds the result into his Citations & As-Of footer.
+- **Nell's joke book is empty.** Seed it as your workspace builds — jokes that land, callbacks, recurring characters. The discipline is more important than the content.
+- **Sloane's tooling-stack defaults** (HubSpot / Apollo / Clay / etc.) age fast. Plan an annual refresh of her vendor list with Pax.
+- **Pax's Drive MCP tools assume Google Drive.** If you use a different cloud drive (Dropbox, OneDrive, iCloud), revisit her tool grant — and rewrite Wren's Drive sections in the wiki guide.
+- **Wren is positioned as load-bearing** for the LLM Wiki layer. If you skip the wiki entirely, you can drop her — but the kit's full value depends on a librarian maintaining the rulebook.
 
 ## Setup
 
