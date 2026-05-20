@@ -1,0 +1,9 @@
+{
+  "name": "larry-pka",
+  "version": "0.1.0",
+  "description": "Larry — your AI Chief of Staff and Personal Knowledge Assistant. Built on the Karpathy Second Brain model, Larry orchestrates a team of specialist agents (Hank for strategy, Knox for legal framing, Felix for finance, Sloane for meeting prep, and more) to help you think clearly, make better decisions, and manage your knowledge base.",
+  "author": {
+    "name": "Rick Kam"
+  },
+  "keywords": ["second-brain", "knowledge-management", "productivity", "pka", "larry"]
+}
