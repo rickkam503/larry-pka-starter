@@ -1,0 +1,13 @@
+{
+  "name": "larry-pka-starter",
+  "owner": {
+    "name": "Rick Kam"
+  },
+  "plugins": [
+    {
+      "name": "larry-pka",
+      "source": "./larry-pka",
+      "description": "Larry — AI Chief of Staff and Personal Knowledge Assistant. Orchestrates specialist agents (Hank, Knox, Felix, Sloane, Pax) with skills for daily brief, specialist dispatch, capture & process, and setup/orientation."
+    }
+  ]
+}
