@@ -65,6 +65,7 @@ The LarryOS Starter Kit includes:
 - The complete Obsidian vault template (pre-configured folder structure, templates, prompts)
 - A step-by-step setup guide
 - This plugin
+- `custom-instructions-claude-ai.md` — a one-time paste that gives Larry a persistent identity on claude.ai (web) in addition to Claude Code
 
 Ask whoever shared this plugin with you for the `LarryOS-Starter-Kit.zip` file.
 

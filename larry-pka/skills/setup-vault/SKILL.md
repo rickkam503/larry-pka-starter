@@ -48,7 +48,21 @@ Walk them through each one:
 **5. Configure Templater plugin**
 *"Go to Settings → Community Plugins → Templater. Set the Template Folder Location to: 12 Templates. Also turn on 'Trigger Templater on new file creation'."*
 
-### Step 3: The Most Important First Step
+### Step 3: Set Your Claude.ai Personalization (one-time, ~2 minutes)
+
+*"If you also use Claude on the web (claude.ai) — and most people do — let's give Larry a persistent identity there too. This is a one-time paste that makes Larry act like Larry on claude.ai, not just inside Claude Code."*
+
+Walk them through:
+
+1. *"Open the LarryOS Starter Kit folder you unzipped. At the root, you'll see a file called `custom-instructions-claude-ai.md`. Open it in any text editor and copy everything inside."*
+2. *"Go to claude.ai → click your profile (top-right) → Settings → Personalization → Custom Instructions."*
+3. *"Paste the text and save."*
+
+*"From now on, when you talk to Claude on the web, it'll already know it's Larry. You won't have to re-explain the role every conversation."*
+
+If they say they don't use Claude.ai (only Claude Code), skip this step — the plugin already gives them Larry locally.
+
+### Step 4: The Most Important First Step
 
 *"The single most important thing you can do right now: open the file '08 Knowledge Base / About Me.md' and fill it in. This is what Larry reads to understand who you are. Spend 10 minutes on it. The more you write, the smarter I get."*
 
@@ -63,7 +77,7 @@ If they say yes, ask these questions one group at a time:
 
 Then format their answers into a clean About Me file they can paste into Obsidian.
 
-### Step 4: First Morning Sweep
+### Step 5: First Morning Sweep
 
 Walk them through the Morning Sweep SOP:
 1. Open Obsidian → dashboard loads automatically
@@ -71,7 +85,7 @@ Walk them through the Morning Sweep SOP:
 3. Write 3 priorities for today
 4. Come back to this Claude conversation and say "morning brief" — Larry will run it
 
-### Step 5: First Week Guidance
+### Step 6: First Week Guidance
 
 *"Here's your only job for the first week: open Obsidian every morning, set your top 3 priorities, and capture anything important to the Inbox. Don't worry about perfect organization. Just use it. The system gets better as you do."*
 
